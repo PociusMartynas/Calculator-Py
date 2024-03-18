@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "calculator_pociusmartynas"
+version = "0.0.1"
+authors = [{name = "Martynas Pocius", email = "martynaspocyus@gmail.com"}]
+description = "A package containing basic arithmetic operations"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://github.com/pociusmartynas/calculator-py"
